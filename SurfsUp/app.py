@@ -35,34 +35,12 @@ app = Flask(__name__)
 def home():
     print("Server received request for 'Home' page...")
     return (
-        f"<h1>Welcome to the Hawaii weather analysis API</h1><br/>"
-        f"<br />"
         f"<h3>Available Routes:</h3><br/>"
         f"<b><a href=\"/api/v1.0/precipitation\">/api/v1.0/precipitation</a></b> <br />"
-        f"This route returns a json dictionary of dates and precipitation amounts that day"
-        f"<br />"
-        f"<br />"
         f"<b><a href=\"/api/v1.0/stations\">/api/v1.0/stations</a></b><br />"
-        f"This route returns a json list of stations from the data"
-        f"<br />"
-        f"<br />"
         f"<b><a href=\"/api/v1.0/tobs\">/api/v1.0/tobs</a></b> <br />"
-        f"This route returns a json list of temperature observations for the last year <br />"
-        f"from the most active weather station<br />"
-        f"<br />"
-        f"<br />"
         f"<b><a href=\"/api/v1.0/start/2014-09-09\">/api/v1.0/start</a></b> <br />"
-        f"This route returns a json list of min, max and avg temps for all dates after a provided start date.<br />"
-        f"from the most active weather station<br />"
-        f"<br />"
-        f"<br />"
         f"<b><a href=\"/api/v1.0/range?start=2014-09-14&end=2016-02-14\">/api/v1.0/range</a></b> <br />"
-        f"This route returns a json list of min, max and avg temps for a given date range.<br />"
-        f"You can enter a range or specify only a start and end date.<br /><br />"
-        f"If only a start or end is specified, all dates from the data set leading up to<br />"
-        f"or following that end date will be returned.<br /><br />"
-        f"Dates should be passed in yyyy-mm-dd format using <i>start</i> and <i>end</i> parameters.<br />"
-        f"(for example: /api/v1.0/range?start=2014-09-14&end=2016-02-14)"
     )
 
 
