@@ -21,7 +21,7 @@ To tackle this challenge I...
 
    
 + Flask Documentation (https://flask.palletsprojects.com/en/3.0.x/)
-+ 
+  
 + SQLAlchemy Documentation (https://docs.sqlalchemy.org/en/20/)
 
 + Previous Bootcamp Challenges
