@@ -40,5 +40,7 @@ To tackle this challenge I...
 + climate_starter.ipynb (Climate Analysis and Data Exploration)
 + app.py (Flask API)
 
+#### Module 10 SQL Alchemy Challenge (Original Challenge Requirements)
+
 
 #### ReadMe
